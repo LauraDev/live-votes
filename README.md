@@ -59,5 +59,10 @@ react-native run-ios // or use xcode
 ## Acknowledgments
 
 This app uses:
-* React Native https://facebook.github.io/react-native/
-* Redux https://redux.js.org
+* React 
+* Redux
+* Immutable
+* Socket.io
+* Webpack
+* Mocha
+* Chai
