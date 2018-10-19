@@ -25,14 +25,19 @@ To get a development env running
 git clone https://github.com/LauraDev/live-votes.git
 
 cd voting-server
+npm install
 npm run start
 
 cd ../voting-cient
 npm install
+npm run start
 ```
 
+Head to 
+- Vote screen http://localhost:8080/#/
+- Results screen http://localhost:8080/#/results
 
-## Android Deployment
+<!-- ## Android Deployment
 
 
 ```
@@ -44,7 +49,7 @@ react-native run-android
 
 ```
 react-native run-ios // or use xcode
-```
+``` -->
 
 ## Author
 
