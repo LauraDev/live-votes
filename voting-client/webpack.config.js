@@ -12,6 +12,14 @@ module.exports = {
             test: /\.jsx?$/,
             exclude: /node_modules/,
             loaders: ['babel-loader'],
+        }, {
+            test: /\.css$/,
+            // loader: 'style-loader!css-loader!autoprefixer-loader?browsers=last 2 version
+            loaders: [
+				'style-loader',
+                'css-loader'
+			]
+
         }]
     },
     resolve: {
