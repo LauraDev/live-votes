@@ -13,8 +13,6 @@ What things you need to install the software and how to install them
 ```
 NodeJS : v8.12.0
 npm : 6.4.1
-React Native CLI: npm install -g react-native-cli
-Redux: npm install --save react-redux
 ```
 
 ### Installing
